@@ -1,4 +1,7 @@
-# test coverage for  [stripe (v4.18.0)](https://github.com/stripe/stripe-node)  [![npm package](https://img.shields.io/npm/v/npmtest-stripe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stripe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stripe.svg)](https://travis-ci.org/npmtest/node-npmtest-stripe)
+# npmtest-stripe
+
+#### basic test coverage for  [stripe (v4.18.0)](https://github.com/stripe/stripe-node)  [![npm package](https://img.shields.io/npm/v/npmtest-stripe.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stripe) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stripe.svg)](https://travis-ci.org/npmtest/node-npmtest-stripe)
+
 #### Stripe API wrapper
 
 [![NPM](https://nodei.co/npm/stripe.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/stripe)
@@ -121,7 +124,8 @@
         "mocha": "mocha",
         "test": "npm run lint && mocha"
     },
-    "version": "4.18.0"
+    "version": "4.18.0",
+    "bin": {}
 }
 ```
 
